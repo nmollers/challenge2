@@ -35,12 +35,10 @@ function myFunction(x) {
   }
 
 // content menu 
-/* Open the sidenav */
 function openNav() {
-    document.getElementById("mySidenav").style.width = "100%";
+    document.getElementById("myNav").style.height = "100%";
   }
   
-  /* Close/hide the sidenav */
   function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("myNav").style.height = "0%";
   }

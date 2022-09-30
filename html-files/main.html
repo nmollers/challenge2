@@ -7,6 +7,7 @@
     <title>NS&MB</title>
     <link rel="stylesheet" href="../css-files/main.css"/>
     <link rel="shortcut icon" type="image/x-icon" href="../fotos/logo no background.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
 
@@ -25,22 +26,20 @@
         </video>
         <img src="../fotos/logo no background.png" class="logo1">
         <!-- Menu button -->
-        <div class="container" onclick="openNav()">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-          </div>    
+        <span id="menuknop" onclick="openNav()">&#9776;</span>    
           <!-- Content Menu -->
-          <div id="mySidenav" class="sidenav">
+          <div id="myNav" class="overlay">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Clients</a>
-            <a href="#">Contact</a>
+            <div class="overlay-content">
+              <a href="#">About</a>
+              <a href="#">Services</a>
+              <a href="#">Clients</a>
+              <a href="#">Contact</a>
+            </div>
           </div>
           <!-- Main Page Tekst -->
         <div class="content">
-        <h1>NS&MB</h1>
+        <h1 class="animate__fadeInLeftBig">NS&MB</h1>
     </div>
 <!-- Einde Main Page -->
 
