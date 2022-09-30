@@ -28,3 +28,19 @@ window.addEventListener('DOMContentLoaded', ()=>{
         }, 2300)
     })
 })
+
+// Nav Menu
+function myFunction(x) {
+    x.classList.toggle("change");
+  }
+
+// content menu 
+/* Open the sidenav */
+function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+  }
+  
+  /* Close/hide the sidenav */
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
