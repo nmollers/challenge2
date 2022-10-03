@@ -1,9 +1,31 @@
+@font-face {
+  font-family: erasbolditc;
+  src: url(../fonts/erasbolditc/ErasBoldITC.ttf);
+}
+
+
+@font-face {
+  font-family: lucidiabright;
+  src: url(../fonts/lucidabright/lucidabrightdemibold.ttf);
+}
+
+
 /* logo left on the page */
 .logo1{
     width: 150px;
     position: absolute;
     left: 0%;
     top: 5px;
+}
+
+
+.pageid{
+  color: white;
+  position: absolute;
+  top: 33px;
+  left: 125px;
+  font-size: 23px;
+  font-family: lucidiabright;
 }
 
 
