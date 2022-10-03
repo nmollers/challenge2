@@ -1,3 +1,15 @@
+@font-face {
+    font-family: erasbolditc;
+    src: url(../fonts/erasbolditc/ErasBoldITC.ttf);
+  }
+  
+  
+  @font-face {
+    font-family: lucidiabright;
+    src: url(../fonts/lucidabright/lucidabrightdemibold.ttf);
+  }
+  
+
 * {
     margin: 0;
     padding: 0;
