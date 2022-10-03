@@ -1,0 +1,47 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+body{
+    background-image: url(untitled.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+
+
+ .foto {
+    position: relative;
+    left: 375px;
+    top: 150px;
+    height: 480px;
+    width: 850px;
+}
+
+.foto2 {
+    position: relative;
+    left: 375px;
+    top: 20px;
+    height: 480px;
+    width: 850px;
+}
+
+.foto3 {
+    position: relative;
+    left: 925px;
+    top: -810px;
+    height: 480px;
+    width: 850px;
+}
+
+.foto4 {
+    position: relative;
+    left: 925px;
+    top: -940px;
+    height: 480px;
+    width: 850px;
+} 
+
