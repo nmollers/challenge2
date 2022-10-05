@@ -11,7 +11,9 @@ background-color: grey;
 
 
 body {
-    background-color: grey;
+  background-image: url(../fotos/achtergrond.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 
