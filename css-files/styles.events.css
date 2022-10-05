@@ -4,7 +4,7 @@ body, html {
   }
 
 body{
-    background-image: url(../fotos/Untitled.jpg);
+    background-image: url(../fotos/achtergrond2.jpg);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat; 
@@ -111,7 +111,7 @@ body{
   }
   
   body {
-    background: linear-gradient(to right, #949494 0%, #949494 100%);
+    
     font-size: 12px;
   }
   
