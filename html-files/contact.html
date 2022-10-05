@@ -47,22 +47,6 @@
 </form>
 </div>
 <script src="../js-files/contact.js"></script>  
-<script src="https://smtpjs.com/v3/smtp.js">
-  </script>
-<script>
-function sendEmail(){
-  Email.send({
-    Host : "smtp.gmail.com",
-    Username : "samuel.bos06@hotmail.com",
-    Password : "password",
-    To : 'samuel.bos06@hotmail.com',
-    From : "document.getElementById("email").value,
-    Subject : "This is the subject",
-    Body : "And this is the body"
-}).then(
-  message => alert(message)
-);
-}
 </script>
 
 </body>
