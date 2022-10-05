@@ -242,7 +242,7 @@ header{
    #MelleIMG{
     position: absolute;
     top: 260px;
-    right: 550px;
+    left: 885px;
    }
    #MelleTEXT{
     top: 555px;
@@ -254,7 +254,7 @@ header{
    #NoahIMG{
     position: absolute;
     top: 260px;
-    right:215px;
+    left:1220px;
   }
   #NoahTEXT{
     top: 555px;
@@ -262,3 +262,102 @@ header{
     position: absolute;
     font-size: 40px;
    }
+
+   /* Image hover effect */
+.pga{
+  position:absolute;
+  width: 360px;
+  max-width: 100%;
+}
+   
+  .pga img.pgahover{
+    position: absolute;
+    top: 260;
+    left: 215;
+    opacity: 0;
+    transition: opacity .2s;
+  }
+
+  .pga:hover img.pgahover{
+    opacity: 1;
+  }
+
+  .pgahover{
+    top: 260px;
+    left: 215px;
+  }
+ 
+
+  
+  .voetbal{
+    position:absolute;
+    width: 360px;
+    max-width: 100%;
+  }
+     
+    .voetbal img.voetbalhover{
+      position: absolute;
+      top: 260;
+      left: 215;
+      opacity: 0;
+      transition: opacity .2s;
+    }
+  
+    .voetbal:hover img.voetbalhover{
+      opacity: 1;
+    }
+
+    .voetbalhover{
+      top: 260px;
+      left: 550px;
+    }
+  
+  
+    
+    .formule1{
+      position:absolute;
+      width: 360;
+      max-width: 100%;
+    }
+
+    .formule1 img.f1hover{
+      position:absolute;
+      top: 260;
+      left: 215;
+      opacity: 0;
+      transition: opacity .2s;
+    }
+    
+    .formule1:hover img.f1hover{
+      opacity: 1;
+    }
+
+    .f1hover{
+      top:260px;
+      left: 885px;
+    }
+
+   
+    
+    .bodybuilder{
+      position:absolute;
+      width: 360;
+      max-width: 100%;
+    }
+
+    .bodybuilder img.bodybuilderhover{
+      position:absolute;
+      top: 260;
+      left: 215;
+      opacity: 0;
+      transition: opacity .2s;
+    }
+    
+    .bodybuilder:hover img.bodybuilderhover{
+      opacity: 1;
+    }
+
+    .bodybuilderhover{
+      top:260px;
+      left:1220px;
+    }
