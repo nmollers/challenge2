@@ -1,26 +1,23 @@
+/* Page Fonts */
 @font-face {
   font-family: erasbolditc;
   src: url(../fonts/erasbolditc/ErasBoldITC.ttf);
 }
 
-
 @font-face {
   font-family: lucidiabright;
   src: url(../fonts/lucidabright/lucidabrightdemibold.ttf);
 }
-
-
+/* Page Styling */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
 body {
-    background-color: whitesmoke;
+    background-color: white;
 }
-
 
 /* logo left on the page */
 .logo1{
@@ -29,7 +26,6 @@ body {
     left: 0%;
     top: 5px;
 }
-
 
 .pageid{
   color: white;
@@ -40,7 +36,6 @@ body {
   font-family: lucidiabright;
 }
 
-
 /* Menu button Styling */
 #menuknop{
     position: absolute;
@@ -50,7 +45,6 @@ body {
     color: white;
 }
 
-  
 /* content Menu */
 .overlay {
     height: 0%;
@@ -65,7 +59,6 @@ body {
     transition: 0.5s;
   }
 
-  
   .overlay-content {
     position: relative;
     top: 30%;
@@ -74,7 +67,6 @@ body {
     margin-top: 30px;
   }
 
-  
   .overlay a {
     padding: 8px;
     text-decoration: none;
@@ -84,11 +76,9 @@ body {
     transition: 0.3s;
   }
 
-  
   .overlay a:hover, .overlay a:focus {
     color: #f1f1f1;
   }
-
   
   .overlay .closebtn {
     position: absolute;
@@ -96,7 +86,6 @@ body {
     right: 45px;
     font-size: 60px;
   }
-  
   
   @media screen and (max-height: 450px) {
     .overlay {overflow-y: auto;}
@@ -108,31 +97,85 @@ body {
     }
   }
 
-
   /* Parralex */
   .parallax {
     background-image: url("../fotos/nieuwsbackground.jpg");
-    min-height: 500px; 
+    background-color: white;
+    height: 100%; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    /*following just for demo purposes to add height and top padding*/
+    height:195vh;
+    padding-top:68vh;
+}
+
+/* Tekst Grid Containers */
+  .titelnieuws{
+    text-decoration: none;
+    color: black;
   }
 
   /* Grid Container */
   .grid-container {
     display: grid;
-    justify-content: start;
-    grid-template-columns: 500px 50 0px; 
-    gap: 10px;
-    background-color: white;
+    justify-content: center;
+    grid-template-columns: 500px 500px;
+    gap: 20px;
     padding: 10px;
+    height:100vh;
+    background:rgba(255,255,255,0.5);
   }
   
   .grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-size: cover;
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
+    height: 300px;
+    font-family: erasbolditc;
   }
 
+  /* Artikel 1 Grid Container */
+  .artikel1{
+    color: black;
+  }
+
+  .artikel1foto
+  {
+    width: 445px;
+    height: 240px;
+  }
+
+/* Artikel 2 Grid Container */
+.artikel2{
+  color: black;
+}
+
+.artikel2foto
+{
+  width: 445px;
+  height: 240px;
+}
+
+/* Artikel 3 Grid Container */
+.artikel3{
+  color: black;
+}
+
+.artikel3foto{
+  width: 445px;
+  height: 240px;
+}
+
+/* Artikel 4 Grid Container */
+.artikel4{
+  color: black;
+}
+
+.artikel4foto
+{
+  width: 445px;
+  height: 240px;
+}
