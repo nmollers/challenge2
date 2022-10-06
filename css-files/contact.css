@@ -110,6 +110,7 @@ background-color: #666;
 
 h1, h2 {
   text-align: center;
+  color: #0078ff;
 }
 /* contact form */
 
@@ -124,7 +125,7 @@ h1, h2 {
 
 }
 form{
-  background: gray;
+  background: #0078ff;
   display: flex;
   flex-direction: column;
   padding: 2vw 4vw;
