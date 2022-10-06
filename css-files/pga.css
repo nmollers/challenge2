@@ -1,5 +1,31 @@
 body{
-    background-image: url(https://wallpaperaccess.com/full/5728473.jpg);
+    background-image: url(https://tpc.com/wp-content/uploads/2020/04/Sawgrass4_1920x1200.jpg);
 background-repeat: no-repeat; 
 background-size: cover; 
 }
+
+.arrow {
+    border: solid rgb(253, 253, 253);
+    border-width: 0 6px 6px 0;
+    display: inline-block;
+    padding: 9px;
+    position: relative;
+    top: 10px;
+    left: 30px;
+  }
+  
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+
+  h2{
+    font-family: bold;
+   }
+  
+   h2{
+    -webkit-text-stroke: 0.5px black;
+   }
+
+   
