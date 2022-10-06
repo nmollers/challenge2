@@ -1,3 +1,8 @@
+@font-face {
+    font-family: erasbolditc;
+    src: url(../fonts/erasbolditc/ErasBoldITC.ttf);
+  }
+
 body{
     background-image: url(https://i.pinimg.com/originals/4c/c1/de/4cc1de92542efc930dccb6bf4bc95927.jpg);
 height: 100%;
@@ -22,7 +27,7 @@ background-size: cover;
   }
 
   h2{
-    font-family: bold;
+    font-family: erasbolditc;
    }
   
    h2{
