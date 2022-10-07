@@ -213,93 +213,94 @@ header{
  
  /* Positioning text and images */
 
-  p{
-    position: fixed;
-    top: 150px;
-    left:520px;
-    font-size:70px;
+p{
+   position: fixed;
+   top: 150px;
+   left:520px;
+   font-size:70px;
     
   }
 
   
-  .BruceIMG{
-    position: absolute;
-    top: 260px;
-    left: 215px;
+.BruceIMG{
+   position: absolute;
+   top: 260px;
+   left: 215px;
   }
   
-  #BruceTEXT{
-    top: 555px;
-    left:250px;
-    position: absolute;
-    font-size: 40px;
+#BruceTEXT{
+   top: 555px;
+   left:250px;
+   position: absolute;
+   font-size: 40px;
    }
-   .pgahover{
-    top: 260px;
-    left: 215px;
+.pgahover{
+   top: 260px;
+   left: 215px;
    }
   
-  
-   .SamuelIMG{
-    position: absolute;
-    top: 260px;
-    left: 550px;
+
+.SamuelIMG{
+   position: absolute;
+   top: 260px;
+   left: 550px;
     
    }
-   #SamuelTEXT{
-    top: 555px;
-    left:585px;
-    position: absolute;
-    font-size: 40px;
+#SamuelTEXT{
+   top: 555px;
+   left:585px;
+   position: absolute;
+   font-size: 40px;
    }
   
-   .voetbalhover{
-    top: 260px;
-    left: 550px;
+.voetbalhover{
+   top: 260px;
+   left: 550px;
   }
 
   
-  .MelleIMG{
-    position: absolute;
-    top: 260px;
-    left: 885px;
+.MelleIMG{
+   position: absolute;
+   top: 260px;
+   left: 885px;
    }
-   #MelleTEXT{
-    top: 555px;
-    right:560px;
-    position: absolute;
-    font-size: 40px;
+#MelleTEXT{
+   top: 555px;
+   right:560px;
+   position: absolute;
+   font-size: 40px;
    }
 
-   .f1hover{
-    top:260px;
-    left: 885px;
+.f1hover{
+   top:260px;
+   left: 885px;
   }
 
  
-   .NoahIMG{
-    position: absolute;
-    top: 260px;
-    left:1220px;
+.NoahIMG{
+   position: absolute;
+   top: 260px;
+   left:1220px;
    }
-   #NoahTEXT{
-    top: 555px;
-    right:235px;
-    position: absolute;
-    font-size: 40px;
+#NoahTEXT{
+   top: 555px;
+   right:235px;
+   position: absolute;
+   font-size: 40px;
    }
 
-   .bodybuilderhover{
-    top:260px;
-    left:1220px;
+.bodybuilderhover{
+   top:260px;
+   left:1220px;
   }
  
  
    /* Image hover effect */
+
 .pga{
-  position:absolute;
-  width: 360px;
-  max-width: 100%;
+   position:absolute;
+   width: 360px;
+   max-width: 100%;
 } 
   
 .pga img.pgahover{ 
@@ -311,7 +312,7 @@ header{
     transition: 1s ease;
   }
   
-  .pga:hover img.pgahover{
+.pga:hover img.pgahover{
     opacity: 1;
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
@@ -319,7 +320,7 @@ header{
     transition: 1s ease;
   }
   
-  .pga img.BruceIMG{
+.pga img.BruceIMG{
     position: absolute;
     opacity: 1;
     -webkit-transform: scale(1);
@@ -328,7 +329,7 @@ header{
     transition: 1s ease;
   }
   
-  .pga:hover img.BruceIMG{
+.pga:hover img.BruceIMG{
     opacity: 0;
     -webkit-transform: scale(0.6);
     -ms-transform: scale(0.6);
@@ -338,13 +339,15 @@ header{
 
 
 
-  .voetbal{
-    position:absolute;
-    width: 360px;
-    max-width: 100%;
+
+
+.voetbal{
+     position:absolute;
+     width: 360px;
+     max-width: 100%;
   }
     
-  .voetbal img.voetbalhover{
+.voetbal img.voetbalhover{
       position: absolute;
       opacity: 0;
       -webkit-transform: scale(0.6);
@@ -353,7 +356,7 @@ header{
       transition: 1s ease;
     }
     
-    .voetbal:hover img.voetbalhover{
+.voetbal:hover img.voetbalhover{
       opacity: 1;
       -webkit-transform: scale(1);
       -ms-transform: scale(1);
@@ -361,24 +364,26 @@ header{
       transition: 1s ease;
     }
     
-    .voetbal img.SamuelIMG{
-      position: absolute;
-      opacity: 1;
-      -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-      transform: scale(1);
-      transition: 1s ease;
+.voetbal img.SamuelIMG{
+    position: absolute;
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 1s ease;
     }
    
-    .voetbal:hover img.SamuelIMG{
-      opacity: 0;
-      -webkit-transform: scale(0.6);
-      -ms-transform: scale(0.6);
-      transform: scale(0.6); 
-      transition: 1s ease;
+.voetbal:hover img.SamuelIMG{
+    opacity: 0;
+    -webkit-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    transform: scale(0.6); 
+    transition: 1s ease;
     }
   
   
+
+
   
     .formule1{
       position:absolute;
@@ -422,6 +427,8 @@ header{
   
   
    
+
+
     .bodybuilder{
       position:absolute;
       width: 360;
