@@ -3,12 +3,6 @@
     src: url(../fonts/erasbolditc/ErasBoldITC.ttf);
   }
 
-body{
-    background-image: url(https://i.pinimg.com/originals/4c/c1/de/4cc1de92542efc930dccb6bf4bc95927.jpg);
-height: 100%;
-background-size: cover;
-
-}
 
 .arrow {
     border: solid rgb(253, 253, 253);
@@ -26,12 +20,18 @@ background-size: cover;
     -webkit-transform: rotate(135deg);
   }
 
-  h2{
-    font-family: erasbolditc;
-   }
+  .parallax {
+    /* The image used */
+    background-image: url("https://img.redbull.com/images/c_crop,w_3200,h_1600,x_0,y_530,f_auto,q_auto/c_scale,w_1200/redbullcom/2018/07/01/18cc623f-7e34-49c6-b327-0a83c3cda600/max-verstappen-austrian-grand-prix-2018");
   
-   h2{
-    -webkit-text-stroke: 0.75px rgb(59, 56, 218);
-   }
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 
