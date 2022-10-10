@@ -1,8 +1,14 @@
+*{
+  margin: 0%;
+}
 @font-face {
     font-family: erasbolditc;
     src: url(../fonts/erasbolditc/ErasBoldITC.ttf);
   }
 
+body{
+  background-color: rgb(6, 16, 58);
+}
 
 .arrow {
     border: solid rgb(253, 253, 253);
@@ -22,10 +28,12 @@
 
   .parallax {
     /* The image used */
-    background-image: url("https://img.redbull.com/images/c_crop,w_3200,h_1600,x_0,y_530,f_auto,q_auto/c_scale,w_1200/redbullcom/2018/07/01/18cc623f-7e34-49c6-b327-0a83c3cda600/max-verstappen-austrian-grand-prix-2018");
+    background-image: url("https://wallpaperaccess.com/full/1348845.png");
+    background-repeat: no-repeat; 
+    background-size: cover; 
   
     /* Set a specific height */
-    min-height: 500px; 
+    min-height: 1000px; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -34,4 +42,9 @@
     background-size: cover;
   }
 
-
+  #grad1 {
+    height: 250px;
+    background-image: linear-gradient(to bottom, rgb(6, 16, 58), rgb(0, 0, 0));
+    position: relative;
+    top: 49%;
+  }
