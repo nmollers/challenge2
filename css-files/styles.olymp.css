@@ -1,15 +1,13 @@
+*{
+  margin: 0%;
+}
 @font-face {
   font-family: erasbolditc;
   src: url(../fonts/erasbolditc/ErasBoldITC.ttf);
 }
 
-body, html {
-    height: 100%;
-    margin: 0;
-  }
-
 body{
-    background-image: url(http://wallpaperset.com/w/full/4/7/7/543847.jpg);
+    background-color: rgb(73, 73, 73);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat; 
@@ -17,25 +15,39 @@ body{
 }
 
 .arrow {
-    border: solid rgb(253, 253, 253);
-    border-width: 0 6px 6px 0;
-    display: inline-block;
-    padding: 9px;
-    position: relative;
-    top: 10px;
-    left: 30px;
-  }
-  
-  
-  .left {
-    transform: rotate(135deg);
-    -webkit-transform: rotate(135deg);
-  }
+  border: solid rgb(253, 253, 253);
+  border-width: 0 6px 6px 0;
+  display: inline-block;
+  padding: 9px;
+  position: relative;
+  top: 10px;
+  left: 30px;
+}
 
- h2{
-  font-family: erasbolditc;
- }
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
 
- h2{
-  -webkit-text-stroke: 1px black;
- }
+.parallax {
+  /* The image used */
+  background-image: url("../fotos/olympiaachtergrond.jpg") ;
+  background-repeat: no-repeat; 
+  background-size: cover; 
+
+  /* Set a specific height */
+  min-height: 1000px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#grad1 {
+  height: 250px;
+  background-image: linear-gradient(to bottom, rgb(73, 73, 73), rgb(0, 0, 0));
+  position: relative;
+  top: 49%;
+}

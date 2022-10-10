@@ -104,34 +104,72 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 body {
-  background-color: red;
+  background: black!important;
 }
 
-h1, h2 {
+
+.tekstbovenform{
   text-align: center;
-  color: #0078ff;
+  color: white;
 }
+
+.tekstbovenform1{
+  text-align: center;
+  color: white;
+}
+
 /* contact form */
 
-
-#menuknop {
-  cursor: pointer;
-  
-}
-.col, .form-row {
+.form-outline {
+width: 1075px;
 position: relative;
-top: 100px;
-left: 150px;
-width: 900px;
+left: 19%;
+top: 20;
 }
-
-.form-group {
+.form-label {
+  color: white;
+}
+.form-control {
+  background-color: black!important;
+}
+.btn.btn-primary.btn-block.mb-4 {
+  width: 500px;
   position: relative;
-  left: 300px;
-  top: 200px;
-  width: 900px;
+  left: 35%;
 }
-#form input {
-    background-color: black;
+.form-outline2 {
+  width: 500px;
+  position: relative;
+  left: 5%;
 }
+  .form-outline1 {
+    width: 500px;
+    position: relative;
+    left: 40%;
+  }
+  .form-outline3 {
+    width: 500px;
+    position: relative;
+    left: 40%;
+  }
+    .form-outline4 {
+      width: 500px;
+      position: relative;
+      left: 5%;
+    }
+  .form-check-input {
+    position: relative;
+    left: 35%;
+  }
+  .form-check-label {
+    position: relative;
+    left: 35%;
+    color: white;
+  }
+  .tekstbovenform {
+    font-family: 'Stencil Std, fantasy';
+    font-size: 399%;
+  }
+
