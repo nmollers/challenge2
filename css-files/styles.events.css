@@ -4,13 +4,7 @@ body, html {
   }
 
 body{
-    background-image: url(../fotos/achtergrond2.jpg);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    background-attachment: fixed;
-    backg
+  background-color: #888;
 }
 
 @font-face {
@@ -456,38 +450,101 @@ body{
 
 
 
-
-
- .foto {
-    position: relative;
-    left: 375px;
-    top: 150px;
-    height: 480px;
-    width: 850px;
+.GolfHover{
+  width: 360;
+  max-width: 100%;
+}
+.Golf{
+  position:absolute;
+  top:160px;
+  left:305px;
+}
+.GolfHover img.Golf{
+  opacity: 1;
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: 1s ease;
+}
+.GolfHover:hover img.Golf{
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  transition: 1s ease;
 }
 
-.foto2 {
-    position: relative;
-    left: 375px;
-    top: 20px;
-    height: 480px;
-    width: 850px;
+
+.BodybuilderHover{
+  width: 360;
+  max-width: 100%;
+}
+.Bodybuilder{
+  position: absolute;
+  top: 160px;
+  right:305px;
+}
+.BodybuilderHover img.Bodybuilder{
+  opacity: 1;
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: 1s ease;
+}
+.BodybuilderHover:hover img.Bodybuilder{
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  transition: 1s ease;
 }
 
-.foto3 {
-    position: relative;
-    left: 925px;
-    top: -810px;
-    height: 480px;
-    width: 850px;
+
+.F1Hover{
+  width: 360;
+  max-width: 360;
+}
+.F1{
+  Position: absolute;
+  bottom: 140px;
+  left: 305px;
+}
+.F1Hover img.F1{
+  opacity: 1;
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: 1s ease;
+}
+.F1Hover:hover img.F1{
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  transition: 1s ease;
 }
 
-.foto4 {
-    position: relative;
-    left: 925px;
-    top: -940px;
-    height: 480px;
-    width: 850px;
-} 
 
-
+.VoetbalHover{
+  width: 360;
+  max-width: 100%;
+}
+.VoetbalLogo{
+  position: absolute;
+  bottom: 140px;
+  right: 305px;
+}
+.VoetbalHover img.VoetbalLogo{
+  opacity: 1;
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: 1s ease;
+}
+.VoetbalHover:hover img.VoetbalLogo{
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  transition: 1s ease;
+}

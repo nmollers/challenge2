@@ -235,7 +235,8 @@ p{
    position: absolute;
    font-size: 40px;
    }
-.pgahover{
+
+   .pgahover{
    top: 260px;
    left: 215px;
    }
@@ -254,25 +255,25 @@ p{
    font-size: 40px;
    }
   
-.voetbalhover{
+   .voetbalhover{
    top: 260px;
    left: 550px;
   }
 
   
-.MelleIMG{
+  .MelleIMG{
    position: absolute;
    top: 260px;
    left: 885px;
    }
-#MelleTEXT{
+   #MelleTEXT{
    top: 555px;
    right:560px;
    position: absolute;
    font-size: 40px;
    }
 
-.f1hover{
+   .f1hover{
    top:260px;
    left: 885px;
   }
