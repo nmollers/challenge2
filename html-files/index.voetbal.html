@@ -6,9 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>champions league</title>
+    <!-- <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script> -->
+    <!-- <script type = "text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js" ></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 </head>
+
+    <script>
+    $(document).ready(function(){
+        var div = $("#divToShowHide");
+        var pos = div.position();
+        $(window).scroll(function () {
+         var windowpos = $(window).scrollTop();
+         if (windowpos >= (pos.top - 700)) {
+           div.addClass("AfterScroll");
+         }
+         else {
+           div.removeClass("AfterScroll");
+         }
+       });
+      });
+      </script>
 <body>
-   
+    
+    <div class="hero-title__gradient-fade" style="opacity: 1; visibility: inherit;"></div>
+<!-- parallax scrolling -->
     <a href="index.events.html"><p style="color:rgb(0, 0, 0)"><h1><i class="arrow left"></i></h1></p></a>
     <div class="parallax"></div>
 <br>
@@ -17,19 +38,26 @@
 <br>
 <div id="grad1"></div>
     <div style="height:1000px;background-color:rgb(0, 0, 0);font-size:36px"> 
-        <center><h3 style="color: white;">De UEFA Champions League is het belangrijkste internationale </h3></center>
-            <center><h3 style="color: white;">voetbaltoernooi voor clubs in en rond europa.</h3></center>
-            <center><h3 style="color: white;">Het toernooi wordt georganiseerd door de Europese </h3></center>
-            <center><h3 style="color: white;">voetbalbond uefa. De naam champions league bestaat sinds 1992.</h3></center>
-                <center><h3 style="color: white;">Voor die tijd stond het toernooi bekend als europacup.  </h3></center>
-                    <center><h3 style="color: white;">De winnaar plaatst zich voor de Fifa club world cup.</h3></center>
-                    <center><h3 style="color: white;">het wereldkampioenschap voor teams waarin de</h3></center>
-                    <center><h3 style="color: white;">6 continentale clubwinnaars en een club namens </h3></center>
-                    <center><h3 style="color: white;"> het organiserend land strijden om clubwereldtitel.</h3></center>
-                    <center><h3 style="color: white;">De winnaar van de UEFA Champions League</h3></center>
-                    <center><h3 style="color: white;">plaatst zich tevens voor de Uefa super cup.</h3></center>
-                    
-</div>
+        <div class="title">DE CHAMPIONS LEAGUE</div>
+        <br>
+        <br>
+        <br>
+        <div id="divToShowHide" class="BeforeScroll">
+        UEFA Champions League is het belangrijkste internationale voetbaltoernooi 
+        voor clubs in en rond europa. Het toernooi wordt georganiseerd door de Europese 
+        voetbalbond uefa. De naam champions league bestaat sinds 1992.
+        Voor die tijd stond het toernooi bekend als europacup.  
+        De winnaar plaatst zich voor de Fifa club world cup.
+        het wereldkampioenschap voor teams waarin de
+        6 continentale clubwinnaars en een club namens 
+        het organiserend land strijden om clubwereldtitel.
+        De winnaar van de UEFA Champions League
+        plaatst zich tevens voor de Uefa super cup.</div>
 
+<section class="text-block text-block--large-intro"></section>
+<div class="grid1"></div>
+<div class="grid2"></div>
+
+ 
 </body>
 </html>
