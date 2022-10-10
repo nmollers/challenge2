@@ -7,7 +7,7 @@
   }
 
 body{
-  background-color: rgb(12, 33, 17);
+  background-color: rgb(7, 18, 61);
 }
 
 .arrow {
@@ -28,12 +28,12 @@ body{
 
   .parallax {
     /* The image used */
-    background-image: url("https://www.framestore.com/sites/default/files/case-study/images/uefa_still002.jpg");
+    background-image: url("https://wallpaperaccess.com/full/1348845.png");
     background-repeat: no-repeat; 
     background-size: cover; 
   
     /* Set a specific height */
-    min-height: 1200px; 
+    min-height: 1000px; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -44,7 +44,7 @@ body{
 
   #grad1 {
     height: 250px;
-    background-image: linear-gradient(to bottom, rgb(12, 33, 17), rgb(0, 0, 0));
+    background-image: linear-gradient(to bottom, rgb(7, 18, 61), rgb(0, 0, 0));
     position: relative;
     top: 49%;
   }
