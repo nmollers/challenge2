@@ -7,7 +7,7 @@
   }
 
 body{
-  background-color: rgb(7, 18, 61);
+  background-color: rgb(6, 16, 58);
 }
 
 .arrow {
@@ -44,7 +44,7 @@ body{
 
   #grad1 {
     height: 250px;
-    background-image: linear-gradient(to bottom, rgb(7, 18, 61), rgb(0, 0, 0));
+    background-image: linear-gradient(to bottom, rgb(6, 16, 58), rgb(0, 0, 0));
     position: relative;
     top: 49%;
   }
