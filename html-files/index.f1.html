@@ -6,8 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>f1</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="../fotos/logo no background.png">
 </head>
+<script>
+    $(document).ready(function(){
+        var div = $("#divToShowHide");
+        var pos = div.position();
+        $(window).scroll(function () {
+         var windowpos = $(window).scrollTop();
+         if (windowpos >= (pos.top - 700)) {
+           div.addClass("AfterScroll");
+         }
+         else {
+           div.removeClass("AfterScroll");
+         }
+       });
+      });
+      </script>
 <body>
+    <div class="hero-title__gradient-fade" style="opacity: 1; visibility: inherit;"></div>
     <a href="index.events.html"><p style="color:rgb(0, 0, 0)"><h1><i class="arrow left"></i></h1></p></a>
     <div class="parallax"></div>
 <br>
@@ -15,25 +33,30 @@
 <br>
 <br>
 <div id="grad1"></div>
-    <div style="height:1000px;background-color:rgb(0, 0, 0);font-size:36px"> 
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-    <center><h4 style="color: white;">Formule 1 is de hoogste klasse in internationaal “formuleracen”. </h4></center>
-    <center><h4 style="color: white;">Deze tak van Autosport betreft het racen in speciaal voor dit doel </h4></center>
-    <center><h4 style="color: white;">ontwikkelde auto's met open wielkasten. Formule 1 wordt meer algemeen tevens gezien</h4></center>
-    <center><h4 style="color: white;">als de hoogste klasse in de autosport. Het eerste wereldkampioenschap</h4></center>
-    <center><h4 style="color: white;">werd verreden in 1950. In de loop van de jaren ontwikkelde de sport</h4></center>
-    <center><h4 style="color: white;">zich op technologisch vlak en werden diverse vernieuwingen in het racen geïntroduceerd</h4></center>
-    <center><h4 style="color: white;">waaronder vleugels, de zogenaamde “wing car” en de turbomotor.</h4></center>
-    <center><h4 style="color: white;">Sommige van deze ontwikkelingen brachten de veiligheid in het gedrang waardoor</h4></center>
-    <center><h4 style="color: white;">zij verboden werden. Ook in het kader van veiligheid waren er ontwikkelingen</h4></center>
-    <center><h4 style="color: white;">als de Monoque, het head en neck support system en de halo, een beschermbeugel</h4></center>
-    <center><h4 style="color: white;">over de cockpit. De ontwikkelingen dreven de kosten op tot grote hoogten.</4></center>
+<div style="font-size:36px"> 
+    <div class="title">FORMULE 1</div>
+    <br>
+    <Br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="divToShowHide" class="BeforeScroll"><center>
+    Formule 1 is de hoogste klasse in internationaal “formuleracen”. 
+    Deze tak van Autosport betreft het racen in speciaal voor dit doel 
+    ontwikkelde auto's met open wielkasten. Formule 1 wordt meer algemeen tevens gezien
+    als de hoogste klasse in de autosport. Het eerste wereldkampioenschap
+    werd verreden in 1950. In de loop van de jaren ontwikkelde de sport
+    zich op technologisch vlak en werden diverse vernieuwingen in het racen geïntroduceerd
+    waaronder vleugels, de zogenaamde “wing car” en de turbomotor.
+    Sommige van deze ontwikkelingen brachten de veiligheid in het gedrang waardoor
+    zij verboden werden. Ook in het kader van veiligheid waren er ontwikkelingen
+    als de Monoque, het head en neck support system en de halo, een beschermbeugel
+    over de cockpit. De ontwikkelingen dreven de kosten op tot grote hoogten.</center></div>
   
-
+    <section class="text-block text-block--large-intro"></section>
+    <div class="grid1"></div>
+    <div class="grid2"></div>
 
 </body>
 </html>

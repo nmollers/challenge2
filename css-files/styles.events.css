@@ -536,9 +536,9 @@ body{
 }
 .VoetbalHover img.VoetbalLogo{
   opacity: 1;
-  -webkit-transform: scale(0.8);
-  -ms-transform: scale(0.8);
-  transform: scale(0.8);
+  -webkit-transform: scale(0.75);
+  -ms-transform: scale(0.75);
+  transform: scale(0.75);
   transition: 1s ease;
 }
 .VoetbalHover:hover img.VoetbalLogo{
