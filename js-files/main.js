@@ -42,3 +42,7 @@ function openNav() {
   function closeNav() {
     document.getElementById("myNav").style.height = "0%";
   }
+  var spotlight = document.getElementById("spotlight");
+window.addEventListener('mousemove', e => {
+spotlight.style.backgroundImage = "radial-gradient(circle at " + e.clientX + "px " + e.clientY + "px, transparent 1px, rgba(0, 0, 0, .8) 170px)";})
+
