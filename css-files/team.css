@@ -13,14 +13,14 @@ background-color: grey;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
 body {
   background-image: url(../fotos/achtergrond.png);
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
@@ -215,23 +215,22 @@ header{
  /* Positioning text and images */
 
 p{
-   position: fixed;
-   top: 150px;
-   left:520px;
    font-size:70px;
-    
+   left: 32%;   
+   top: 15%;
+   position: absolute;
   }
 
   
 .BruceIMG{
    position: absolute;
    top: 260px;
-   left: 215px;
+   left: 180px;
   }
   
 #BruceTEXT{
    top: 555px;
-   left:250px;
+   left:205px;
    position: absolute;
    font-size: 40px;
    }
@@ -245,12 +244,12 @@ p{
 .SamuelIMG{
    position: absolute;
    top: 260px;
-   left: 550px;
+   left: 600px;
     
    }
 #SamuelTEXT{
    top: 555px;
-   left:585px;
+   left: 625px;
    position: absolute;
    font-size: 40px;
    }
@@ -264,11 +263,11 @@ p{
   .MelleIMG{
    position: absolute;
    top: 260px;
-   left: 885px;
+   left: 1050px;
    }
    #MelleTEXT{
    top: 555px;
-   right:560px;
+   right: 610px;
    position: absolute;
    font-size: 40px;
    }
@@ -282,11 +281,11 @@ p{
 .NoahIMG{
    position: absolute;
    top: 260px;
-   left:1220px;
+   left: 1450px;
    }
 #NoahTEXT{
    top: 555px;
-   right:235px;
+   right:220px;
    position: absolute;
    font-size: 40px;
    }
